@@ -1,7 +1,7 @@
 ﻿'use strict';
 var express = require('express');
 var router = express.Router();
-let file = require('./../../constants')
+let file = require('./../../../constants')
 
 let someValue = file ? file : 'meh'
 
